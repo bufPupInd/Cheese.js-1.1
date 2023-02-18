@@ -8,6 +8,7 @@ app_version: 1.2.4
 <!-- Steps - Do not remove this comment -->
 1. [new Canvas();](new-canvas.3pjph.sw.md)
 2. [Canvas.length, Canvas.width](canvaslength-canvaswidth.y5vpp.sw.md)
+3. [Canvas.color;](canvascolor.xiqyw.sw.md)
 
 
 <br/>
