@@ -7,12 +7,9 @@ app_version: 1.2.4
 
 <!-- Steps - Do not remove this comment -->
 1. [PI](pi.mnepc.sw.md)
-2. [new Canvas();](new-canvas.3pjph.sw.md)
-3. [Canvas.length, Canvas.width](canvaslength-canvaswidth.y5vpp.sw.md)
-4. [Canvas.color;](canvascolor.xiqyw.sw.md)
-5. [Canvas.getPixelData();](canvasgetpixeldata.mfb7k.sw.md)
-6. [Canvas.drawRect();](canvasdrawrect.t3ip5.sw.md)
-7. [Canvas.drawEllipse();](canvasdrawellipse.getc9.sw.md)
+2. [update();](update.hmdgp.sw.md)
+3. [Vector](vector.pj253.sw.md)
+4. [new Canvas();](new-canvas.3pjph.sw.md)
 
 
 <br/>
