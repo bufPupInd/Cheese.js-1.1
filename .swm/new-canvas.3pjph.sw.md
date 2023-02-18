@@ -8,8 +8,12 @@ app_version: 1.2.4
 Canvas is a constructor that makes a blank HTML5 canvas to draw on
 
 ```javascript
-const board = new Canvas();
+const board = new Canvas(500, 500, Color(0));
 ```
+
+The 1st parameter is the length and the second is the width of the canvas made. The 3rd parameter is the color of the canvas.
+
+By default, if they're are no parameters passed, the canvas will default to 500x with a color of black
 
 <br/>
 
