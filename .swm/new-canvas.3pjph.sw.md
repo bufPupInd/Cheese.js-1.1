@@ -5,15 +5,95 @@ file_version: 1.1.2
 app_version: 1.2.4
 ---
 
-Canvas is a constructor that makes a blank HTML5 canvas to draw on
+**new Canvas** is a constructor that makes a blank HTML5 canvas to draw on
 
 ```javascript
-const board = new Canvas(500, 500, Color(0));
+const canvas = new Canvas(500, 500, Color(0));
 ```
 
 The 1st parameter is the length and the second is the width of the canvas made. The 3rd parameter is the color of the canvas.
 
 By default, if they're are no parameters passed, the canvas will default to 500x with a color of black
+
+**Canvas.length** and **Canvas.width** are attributes of any canvas object that describe it's measurements in pixels. Length is horizontal and width is vertical
+
+```javascript
+const canvas = new Canvas(500, 700, Color(0));
+console.log(canvas.length); //Expected 500
+console.log(canvas.width); //Expected 700
+```
+
+**Canvas.color** is an attribute of the canvas that sets the color of the canvas. Updating this value will have no effect until the canvas is cleared.
+
+```javascript
+const canvas = new Canvas();
+console.log(canvas.color) //Expected black (default)
+```
+
+**Canvas.getPixelData** is a function on the canvas constructor that gets the color of every pixel on the canvas is either a 1D or 2D array. To poke an element in a 2D array you can use 'arr\[x\]\[y\]'. The only parameter is the dimensionality of the array: '1D' or '2D'
+
+```javascript
+const canvas = new Canvas();
+const data = canvas.getPixelData('2D');
+console.log(data[0][0]); //Logs the first pixel color
+```
+
+**Canvas.drawSprite** takes a sprite as it's only parameter and draws it to the screen.
+
+```javascript
+const canvas = new Canvas();
+const sprite = new Sprite(250, 250, 'path.png');
+canvas.drawSprite(sprite); //Draws the path 'path.png' to the screen
+```
+
+**Canvas.drawText** takes a text object as it's only parameter and draws it to the screen.
+
+```javascript
+const canvas = new Canvas();
+const text = new Text('Hello World', 250, 250, 'Arial', 24, Color(255));
+canvas.drawText(text); //Draws Hello World to the screen
+```
+
+**Canvas.drawRect** accepts a rectangle object as it's parameter and draws it to the screen.
+
+```javascript
+const canvas = new Canvas();
+const rect = new Rect(250, 250, 50, 50, Color(255));
+canvas.drawRect(rect);
+```
+
+**Canvas.drawEllipse** draws an ellipse object to the screen from it's first parameter
+
+```javascript
+const canvas = new Canvas();
+const ellipse = new Ellipse(250, 250, 50, 50, Color(255));
+canvas.drawEllipse(ellipse);
+```
+
+**Canvas.drawLine** draws a straight line from one x, y point to another.
+
+```javascript
+const canvas = new Canvas();
+const line = new Line(0, 0, 500, 500, 3, Color(255));
+canvas.drawLine(line); //Draws a line across the screen
+```
+
+**Canvas.drawPolygon** draws a path and fills it making a polygon out of an array of vectors
+
+```javascript
+const arr = [ //Array of x, y points
+  new Vector(250, 150),
+  new Vector(354, 219.4),
+  new Vector(329.9, 332.6),
+  new Vector(220.1, 332.6),
+  new Vector(196, 219.4)
+]
+const canvas = new Canvas();
+const path = new Path(arr, Color(255));
+canvas.drawPolygon(path);
+```
+
+<br/>
 
 <br/>
 
