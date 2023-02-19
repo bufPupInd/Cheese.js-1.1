@@ -13,11 +13,12 @@ Not used in Node.js, only the browser on a live server
 <br/>
 
 <!-- Steps - Do not remove this comment -->
-1. [Input Options](input-options.dhr0e.sw.md)
-2. [PI](pi.mnepc.sw.md)
-3. [update();](update.hmdgp.sw.md)
+1. [PI](pi.mnepc.sw.md)
+2. [update();](update.hmdgp.sw.md)
+3. [Page Title](page-title.rsi0q.sw.md)
 4. [Vector](vector.pj253.sw.md)
 5. [Canvas](canvas.3pjph.sw.md)
+6. [Input Options](input-options.dhr0e.sw.md)
 
 
 <br/>
