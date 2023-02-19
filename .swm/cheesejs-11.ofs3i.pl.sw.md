@@ -5,11 +5,19 @@ file_version: 1.1.2
 app_version: 1.2.4
 ---
 
+<!-- Intro - Do not remove this comment -->
+A creative coding javascript library for the web.
+
+Not used in Node.js, only the browser on a live server
+
+<br/>
+
 <!-- Steps - Do not remove this comment -->
-1. [PI](pi.mnepc.sw.md)
-2. [update();](update.hmdgp.sw.md)
-3. [Vector](vector.pj253.sw.md)
-4. [new Canvas();](new-canvas.3pjph.sw.md)
+1. [Input Options](input-options.dhr0e.sw.md)
+2. [PI](pi.mnepc.sw.md)
+3. [update();](update.hmdgp.sw.md)
+4. [Vector](vector.pj253.sw.md)
+5. [Canvas](canvas.3pjph.sw.md)
 
 
 <br/>
