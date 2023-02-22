@@ -20,9 +20,10 @@ Not used in Node.js, only the browser on a live server
 5. [Map](map.juged.sw.md)
 6. [Random Numbers](random-numbers.zryde.sw.md)
 7. [Noise (Not Perrin)](noise-not-perrin.uco9p.sw.md)
-8. [Vector](vector.pj253.sw.md)
-9. [Canvas](canvas.3pjph.sw.md)
-10. [Input Options](input-options.dhr0e.sw.md)
+8. [Distance](distance.ks0e0.sw.md)
+9. [Vector](vector.pj253.sw.md)
+10. [Canvas](canvas.3pjph.sw.md)
+11. [Input Options](input-options.dhr0e.sw.md)
 
 
 <br/>
