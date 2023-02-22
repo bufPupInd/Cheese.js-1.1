@@ -2,7 +2,7 @@
 id: ofs3i
 title: Cheese.js 1.1
 file_version: 1.1.2
-app_version: 1.2.4
+app_version: 1.2.7
 ---
 
 <!-- Intro - Do not remove this comment -->
@@ -16,9 +16,13 @@ Not used in Node.js, only the browser on a live server
 1. [PI](pi.mnepc.sw.md)
 2. [update();](update.hmdgp.sw.md)
 3. [Page Title](page-title.rsi0q.sw.md)
-4. [Vector](vector.pj253.sw.md)
-5. [Canvas](canvas.3pjph.sw.md)
-6. [Input Options](input-options.dhr0e.sw.md)
+4. [Constrain](constrain.9qykw.sw.md)
+5. [Map](map.juged.sw.md)
+6. [Random Numbers](random-numbers.zryde.sw.md)
+7. [Noise (Not Perrin)](noise-not-perrin.uco9p.sw.md)
+8. [Vector](vector.pj253.sw.md)
+9. [Canvas](canvas.3pjph.sw.md)
+10. [Input Options](input-options.dhr0e.sw.md)
 
 
 <br/>
